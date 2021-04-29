@@ -3,8 +3,8 @@ This project helps in printing the similar and different filenames by comparing 
 
 We need to give three inputs as given below:
 
-  1. Path of the first loaction.
-  2. Path of the second location.
-  3. The path where you want to generate the final text file.
+  1. Aboslute path of the first location.
+  2. Absolute path of the second location.
+  3. The absolute path(with filename as well) where you want to generate the final output file. For e.g : C:/Desktop/fileNames.txt
 
 It is useful in scenarios where we want to compare the filenames present at two different locations.
