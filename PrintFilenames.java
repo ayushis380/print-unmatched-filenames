@@ -12,10 +12,8 @@ public class PrintFilenames {
 		String filePath = scanner.next();
 		File directoryPathOld = new File(filePathOld);
 		File directoryPathNew = new File(filePathNew);
-		File filesListOld[] = directoryPathOld.listFiles(); // list of files at
-															// first path
-		File filesListNew[] = directoryPathNew.listFiles(); // list of files at
-															// second path
+		File filesListOld[] = directoryPathOld.listFiles(); // list of files at the first path
+		File filesListNew[] = directoryPathNew.listFiles(); // list of files at the second path
 		List<String> matchedFiles = new ArrayList<String>();
 		File createPath = new File(filePath);
 		createPath.createNewFile();
